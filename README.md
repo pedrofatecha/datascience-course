@@ -96,4 +96,5 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 6. Universidad de Destino= 									Indica la universidad donde se realizara el curso										(caracter/string)
 7. Pais=  													Indica el Pais donde se encuentra la ciudad de destino									(caracter/string)
 8. Departamento de Origen=									El departamento de la ciudad del Becario												(Numerico/discretos)
-9. Total General=											Indica el Monto con que el becario sera beneficiado										(Numerico/continuo)	 
+9. Total General=											Indica el Monto con que el becario sera beneficiado										(Numerico/continuo)
+
