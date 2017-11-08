@@ -44,7 +44,7 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 
 ## Data 1: __becal2017__
 
- CAMPOS	         											CONTENIDO	               																	tipo de dato
+               														
 1. N=	      												Numero de becario	       																(numerico/discreto)
 2. Condicion = 												Estado en que se cuentra el Becario														(caracter/string)
 3. N = 														Numero de becario																		(numerico/discreto)
@@ -84,9 +84,8 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 36. Fecha firma de Adenda=									Indica la fecha en que se firma una adenda del contrato en el caso que aplique			(caracter/string)
 
 
-##Data 2: __becal2017__
-
- CAMPOS	         											CONTENIDO	               																	tipo de dato
+## Data 2: __becal2017__
+	               																	
 
 1. N	      												Numero de becario	       																(numerico/discreto)
 2. C.I. 													Numero de Documento de identidad del becario											(numerico/discreto)
