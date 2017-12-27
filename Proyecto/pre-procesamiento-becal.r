@@ -176,13 +176,7 @@ for(i in 1:as.numeric(NROW(becal2$totalgralusd))){
   becal2$totalgralusd[i] <- convertir_totalgeneral(monto = becal2$totalgralusd[i])  
 }
 
-normalizar_texto = function(texto) {
-  texto = tolower(texto)  # pasar texto a minusculas
-  texto = stri_trans_general(texto, 'latin-ascii')  # remover acentos
-  #texto = gsub('[^a-z\\s]', '', texto)  # remover caracteres no alfabeticos excepto espacio
-  texto = str_trim(texto) # elimina espacios vacios de adelante y atrás
-  return (texto)
-}
+
 for(i in 1:as.numeric(NROW(becal2$tipodebecasegunprogramaaprobado)) ){
   becal2$tipodebecasegunprogramaaprobado[i]<-normalizar_texto(texto = becal2$tipodebecasegunprogramaaprobado[i])
 }
